@@ -1,15 +1,15 @@
 package model;
 
-import java.util.Hashmap;
+import java.util.HashMap;
 
 public class Series {
 
     private String name;
-    private Hashmap<String, Book> books;
+    private HashMap<String, Book> books;
 
     public Series(String name) {
         this.name = name;
-        books = new Hashmap<>();
+        books = new HashMap<>();
     }
 
     public void addBook(Book book) {
