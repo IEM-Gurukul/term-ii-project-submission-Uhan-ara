@@ -1,35 +1,39 @@
 package model;
 
-import java.util.ArrayList;
+import java.util.Hashmap;
 
 public class Series {
 
     private String name;
-    private ArrayList<Book> books;
+    private Hashmap<String, Book> books;
 
     public Series(String name) {
         this.name = name;
-        books = new ArrayList<>();
+        books = new Hashmap<>();
     }
 
     public void addBook(Book book) {
-        books.add(book);
+        books.put(book.getTitle(), book);
+    }
+
+    public Book getBook(String title) {
+        return books.get(title);
     }
 
     public void showBooks() {
         System.out.println("Series: " + name);
 
-        for (Book b : books) {
-            b.displayInfo();
+        for (Book book : books.values) {
+            book.displayInfo();
             System.out.println();
         }
     }
 
-    public ArrayList<Book> getBooks() {
-    return books;
-}
-
     public String getName() {
         return name;
+    }
+
+    public HashMap<String, Book> getBooks() {
+        return books;
     }
 }
