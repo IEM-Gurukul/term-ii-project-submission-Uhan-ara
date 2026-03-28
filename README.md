@@ -2,7 +2,7 @@
 # PCCCS495 – Term II Project
 
 ## Project Title
-***Multiverse Tracker***
+***Personal Book Universe Tracker***
 
 ---
 
