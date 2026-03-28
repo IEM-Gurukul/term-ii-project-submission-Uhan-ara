@@ -36,26 +36,26 @@ The *Personal Book Universe Tracker* is designed to help users organize books in
       -- Organize books under the appropriate series
 - Reading Progress Tracking
 
-      -Track pages read
+      -- Track pages read
 
-      -Mark books as Reading / Completed / Planned
+      -- Mark books as Reading / Completed / Planned
 - Recommendation System
 
-      -Suggest the next book to read based on series order
+      -- Suggest the next book to read based on series order
 
 - Search Functionality
 
-      -Search by title
+      -- Search by title
 
-      -Search by author
+      -- Search by author
 
-      -Search by universe or series
+      -- Search by universe or series
 
 - Data Persistence
 
-      -Save library data to file
+      -- Save library data to file
 
-      -Load saved data when the program starts
+      -- Load saved data when the program starts
 
 ---
 
