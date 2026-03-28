@@ -1,0 +1,50 @@
+@startuml
+
+class Book {
+  - title: String
+  - author: String
+  - genre: String
+  - series: Series
+  + getDetails(): String
+}
+
+class Series {
+  - name: String
+  - books: List<Book>
+  + addBook(book: Book)
+}
+
+class Universe {
+  - name: String
+  - seriesList: List<Series>
+  + addSeries(series: Series)
+}
+
+class FicCharacter {
+  - name: String
+  - role: String
+}
+
+class LibraryManager {
+  - books: List<Book>
+  - seriesList: List<Series>
+  - universes: List<Universe>
+  + addBook(book: Book)
+  + addSeries(series: Series)
+  + addUniverse(universe: Universe)
+}
+
+class MainWindow {
+  - manager: LibraryManager
+  + display()
+}
+
+Book --> Series
+Series --> Universe
+Book --> FicCharacter
+LibraryManager --> Book
+LibraryManager --> Series
+LibraryManager --> Universe
+MainWindow --> LibraryManager
+
+@enduml
