@@ -7,9 +7,9 @@
 ---
 
 ## Problem Statement (max 150 words)
-Many readers crave for stories that belong to different series and fictional universes, which is very much intriguing but also makes it difficult to organize reading lists and track progress across interconnected stories. Managing relationships between books, series and universes manually can become confusing, especially when multiple storylines overlap.
+Many readers crave stories that belong to different series and fictional universes, which is very much intriguing but also makes it difficult to organize reading lists and track progress across interconnected stories. Managing relationships between books, series and universes manually can become confusing, especially when multiple storylines overlap.
 
-The *Multiverse Tracker* is designed to help users organize books in a structured way by grouping them into series and universes while also tracking reading progress. The system allows users to add books, manage their reading status and search their collection efficiently. It also provides recommendations for the next book to read within a series. By structuring books hierarchically and storing the data persistently; the system helps readers maintain an organized private library and better understand connections between intertwined storylines.
+The *Personal Book Universe Tracker* is designed to help users organize books in a structured way by grouping them into series and universes while also tracking reading progress. The system allows users to add books, manage their reading status and search their collection efficiently. It also provides recommendations for the next book to read within a series. By structuring books hierarchically and storing the data persistently; the system helps readers maintain an organized private library and better understand connections between intertwined storylines.
 
 ---
 
@@ -33,29 +33,29 @@ The *Multiverse Tracker* is designed to help users organize books in a structure
 
       -- Create series within universes
 
-      -- Organize books under all of the appropriate series
+      -- Organize books under the appropriate series
 - Reading Progress Tracking
 
-      -- Track pages read
+      -Track pages read
 
-      -- Mark books as Reading / Completed / Planned
+      -Mark books as Reading / Completed / Planned
 - Recommendation System
 
-      -- Suggest the next book to read based on series order
+      -Suggest the next book to read based on series order
 
 - Search Functionality
 
-      -- Search by title
+      -Search by title
 
-      -- Search by author
+      -Search by author
 
-      -- Search by universe or series
+      -Search by universe or series
 
 - Data Persistence
 
-      -- Save library data to file
+      -Save library data to file
 
-      -- Load saved data when the program starts
+      -Load saved data when the program starts
 
 ---
 
@@ -65,7 +65,7 @@ The *Multiverse Tracker* is designed to help users organize books in a structure
 - Inheritance: *specific book types such as **Novel**, **Comic** and **Manga** inherit from the base Book class*
 - Polymorphism: *different subclasses of Book can implement behaviors such as reading progress tracking in their own way*
 - Exception Handling: *used to handle invalid input, missing books, or incorrect operations within the system*
-- Collections / Threads: *Java Collections such as ArrayList and HashMap are used to manage books, series and universes efficiently*
+- Collections: *Java Collections such as ArrayList and HashMap are used to manage books, series and universes efficiently*
 
 ---
 
